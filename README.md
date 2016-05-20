@@ -17,7 +17,7 @@
     $ cd path/to/news-summariser/
     $ npm run start
 
-Go to http://localhost:8080 in your web browser.
+Go to [http://localhost:8080](http://localhost:8080) in your web browser.
 
 ## Run your feature tests
 
