@@ -11,6 +11,7 @@
     $ cd path/to/news-summariser/
     $ npm install
     $ bower install
+    $ npm run install-selenium-dependencies
 
 ## Run and view your app
 
