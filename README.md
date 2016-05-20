@@ -15,7 +15,7 @@
 ## Run and view your app
 
     $ cd path/to/news-summariser/
-    $ npm run start
+    $ npm run start-app
 
 Go to [http://localhost:8080](http://localhost:8080) in your web browser.  You should see "Hello, world".
 
