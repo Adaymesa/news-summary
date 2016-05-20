@@ -12,16 +12,16 @@
     $ npm install
     $ bower install
 
-## Run and use your app
+## Run and view your app
 
     $ cd path/to/news-summariser/
     $ npm run start
 
-Go to [http://localhost:8080](http://localhost:8080) in your web browser.
+Go to [http://localhost:8080](http://localhost:8080) in your web browser.  You should see "Hello, world".
 
 ## Run your feature tests
 
-In one terminal, run Selenium:
+In one terminal, run Selenium
 
     $ cd path/to/news-summariser/
     $ npm run start-selenium
@@ -31,7 +31,7 @@ In another terminal, run your app
     $ cd path/to/news-summariser/
     $ npm run start-app
 
-In a third terminal, run your feature tests:
+In a third terminal, run your feature tests
 
     $ cd path/to/news-summariser/
     $ npm run test-features
