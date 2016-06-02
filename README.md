@@ -1,4 +1,4 @@
-# News Summariser starter project
+# News Summary starter project
 
 ## Setting up
 
