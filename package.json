@@ -11,6 +11,10 @@
   },
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makersacademy/news-summary.git"
+  },
   "dependencies": {
     "bower": "^1.7.9",
     "http-server": "^0.9.0",
