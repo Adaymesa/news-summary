@@ -1,5 +1,7 @@
 # News Summary starter project
 
+This is the starter repo for the News Summary project in Further JavaScript week 8.  See the Makers course repo for the [full project description](https://github.com/makersacademy/course/blob/master/further_javascript/news_summary_project.md).
+
 ## Setting up
 
 ### Clone this repo to your computer
