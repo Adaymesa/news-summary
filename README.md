@@ -12,7 +12,7 @@ This is the starter repo for the News Summary project in Further JavaScript week
 
     $ cd path/to/news-summariser/
     $ npm install
-    $ bower install
+    $ npm run install-bower-dependencies
     $ npm run install-selenium-dependencies
 
 ## Run and view your app
