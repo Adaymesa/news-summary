@@ -8,7 +8,17 @@ This is the starter repo for the News Summary project in Further JavaScript week
 
     $ git clone https://github.com/makersacademy/news-summary.git
 
-### Install the dependencies
+### Install the Java Development Kit (JDK)
+
+[Install the JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+
+Check it's installed by typing
+
+    $ java -version
+
+You should see a version number.
+
+### Install the other dependencies
 
     $ cd path/to/news-summariser/
     $ npm install
