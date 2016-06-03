@@ -25,13 +25,6 @@ You should see a version number.
     $ npm run install-bower-dependencies
     $ npm run install-selenium-dependencies
 
-## Run and view your app
-
-    $ cd path/to/news-summariser/
-    $ npm run start-app
-
-Go to [http://localhost:8080](http://localhost:8080) in your web browser.  You should see "Hello, world".
-
 ## Run your feature tests
 
 In a terminal, run your app.
@@ -53,3 +46,12 @@ In a *third* terminal (with your app and Selenium still running from the previou
 
     $ cd path/to/news-summariser/
     $ npm run test-units
+
+## Run and view your app
+
+    $ cd path/to/news-summariser/
+    $ npm run start-app
+
+If you see "Error: listen EADDRINUSE 0.0.0.0:8080" when you run `npm run start-app`, you may have the app already running in a separate tab.
+
+Go to [http://localhost:8080](http://localhost:8080) in your web browser.  You should see "Hello, world".
