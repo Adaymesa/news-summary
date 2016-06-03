@@ -34,17 +34,17 @@ Go to [http://localhost:8080](http://localhost:8080) in your web browser.  You s
 
 ## Run your feature tests
 
-In a terminal, run your app
+In a terminal, run your app.
 
     $ cd path/to/news-summariser/
     $ npm run start-app
 
-In a second terminal, run Selenium
+In a *second* terminal (with your app still running from the previous step), run Selenium.
 
     $ cd path/to/news-summariser/
     $ npm run start-selenium
 
-In a third terminal, run your feature tests
+In a *third* terminal (with your app and Selenium still running from the previous steps), run your feature tests.
 
     $ cd path/to/news-summariser/
     $ npm run test-features
