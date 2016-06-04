@@ -1,3 +1,4 @@
+
 <!doctype html>
 
 <html lang="en" ng-app="newsSummaryApp">
@@ -5,13 +6,20 @@
     <meta charset="utf-8">
     <script src="bower_components/angular/angular.js"></script>
     <script src="js/app.js"></script>
-    <script src="js/controllers.js"></script>
+    <script src="js/controllers/SummaryController.js"></script>
+    <script src="js/services/SummaryFactory.js"></script>
+    <script src="js/services/SummaryService.js"></script>
     <title>News Summary</title>
   </head>
 
   <body>
-    <div ng-controller="NewsSummaryController as controller">
-      <p>{{controller.greeting}}</p>
+    <div style="text-align: center;" ng-controller="SummaryAppController as controller">
+      <h1>News finder</h1>
+      <div ng-repeat="article in controller.articles">
+        <h3 > {{ article.webTitle }}</h3>
+        <p> {{article.pubDate | date:'medium'}} </p>
+        <img ng-src="{{article.picture}}">
+      </div>
     </div>
   </body>
 </html>
