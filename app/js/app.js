@@ -1,1 +1,1 @@
-var newsSummaryApp = angular.module("newsSummaryApp", []);
+var newsSummaryApp = angular.module("newsSummaryApp", ['ngSanitize']);
