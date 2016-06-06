@@ -1,0 +1,17 @@
+<div class="container" style="text-align: center;" ng-controller="SummaryAppController as controller">
+  <div class="page-header"><h1>News finder</h1></div>
+  <div ng-repeat="article in controller.articles">
+    <br>
+    <a href="{{article.webUrl}}" target="_blank"><h3>{{ article.webTitle }}</h3></a>
+    <span style="font-style: italic;"> {{article.pubDate | date:'medium'}} </span><hr>
+    <div class="row">
+      <div class="col-md-6"> 
+      <a href="{{article.webUrl}}" target="_blank"><img class="img-thumbnail" src="images/the_guardian.jpg" ng-src="{{article.picture}}"></a>
+      </div>
+      <div class="col-md-6"> 
+        <p style="text-align: justify;">{{ article.summary.join() }}</p>
+      </div>
+    </div>
+    <br>
+  </div>
+</div>

@@ -6,22 +6,17 @@ newsSummaryApp.service("SummaryService", ["SummaryFactory", "$http", function(Su
   };
 
   function _iterateThrough (response) {
-    // console.log(response.data.response.results[0]);
     var articles = [];
     var summaryUrl = "http://news-summary-api.herokuapp.com/aylien?apiRequestUrl=https://api.aylien.com/api/v1/summarize?url=";
+    var i = 1;
     response.data.response.results.forEach(function(object) {
-      
       $http.get(summaryUrl + object.webUrl).success(function(response){
-        articles.push(new SummaryFactory(object.webTitle, object.webPublicationDate, 
+        articles.push(new SummaryFactory(object.id, object.webTitle, object.webPublicationDate, 
         object.fields.thumbnail, object.fields.body, object.webUrl, response.sentences));
       });      
     });
     
     return articles;
-  };
-
-  function _summaryProcess(response) {
-
   };
 
 }]);
